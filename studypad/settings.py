@@ -128,7 +128,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-CORS_ALLOWED_ORIGINS=[
+ALLOWED_HOST = [
     "https://studybud-production-b18a.up.railway.app",
     "http://locahost:8000",
     
