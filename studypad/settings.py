@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*!b%ps73y&$v68ohex+likv)u=9)#j@xr@rmnnqs63jf-ee_-%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://web-production-b18a.up.railway.app/"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -126,6 +126,12 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
+]
+
+CORS_ALLOWED_ORIGINS=[
+    "https://web-production-b18a.up.railway.app/",
+    "http://locahost:8000",
+    
 ]
 
 
