@@ -1,0 +1,1 @@
+web: gunicorn studypad.wsgi --log-file -
