@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "https://studybud-production-b18a.up.railway.app",
     "http://locahost:8000",
-    "*"
+    '*'
 ]
 
 
