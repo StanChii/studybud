@@ -28,7 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "https://studybud-production-b18a.up.railway.app",
-    "http://locahost:8000"
+    "http://locahost:8000",
+    "*"
 ]
 
 
@@ -129,12 +130,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-]
-
-ALLOWED_HOST = [
-    "https://studybud-production-b18a.up.railway.app",
-    "http://locahost:8000",
-    
 ]
 
 
