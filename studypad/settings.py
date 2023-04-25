@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-*!b%ps73y&$v68ohex+likv)u=9)#j@xr@rmnnqs63jf-ee_-%
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://studybud-production-b18a.up.railway.app",
-    "http://locahost:8000",
+    'https://studybud-production-b18a.up.railway.app',
+    'http://locahost:8000',
     '*'
 ]
 
